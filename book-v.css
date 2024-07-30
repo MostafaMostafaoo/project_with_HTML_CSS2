@@ -1,0 +1,252 @@
+body{
+    margin: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: gainsboro;
+    height: 60px;
+}
+
+
+.car{
+    
+    padding: 20px 200px;
+   
+}
+
+.car a{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(21, 6, 36);
+    margin: 30px ;
+}
+
+
+.car a:hover{
+    color: blue;
+}
+
+
+.car-1{
+    padding: 20px ;
+
+}
+
+.car-1 a{
+    text-decoration: none;
+    margin: 7px;
+}
+
+.car-1 a:hover{
+
+    color: blue;
+
+}
+
+section{
+    background-color: rgba(0, 0, 0, 0.325);
+
+    /* opacity: .10; */
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.car-2{
+    margin: 0 150px;
+    
+}
+
+
+.car-3{
+    padding: 20px ;
+ 
+}
+
+.car-3 a{
+    margin: 20px;
+    text-decoration: none;
+    font-size: 23px;
+    color: white;
+    
+    
+}
+
+.car-3 a:hover{
+    background-color: brown;
+    padding: 20px;
+    width: 300px;
+}
+
+.img-1{
+    width: 100%;
+}
+
+.see{
+    position: absolute;
+    margin-top: -400px;
+    text-align: center;
+    color: white;
+    padding: 0 170px;
+    
+   
+}
+
+
+.see h1{
+    font-size: 50px;
+    margin-top: -1px;
+   
+   
+
+}
+
+
+.see h2{
+    font-size: 35px;
+    margin: 10px 0;
+    padding: 20px 0;
+
+}
+
+.see p{
+    width: 1100px;
+    font-size: 20px;
+    padding: 0 150px;
+      
+}
+
+
+.see a{
+    color: white;
+}
+
+.see-1{
+    background-color: darkmagenta;
+    margin-top: -25px;
+    display: flex;
+    height: 300px;
+   
+}
+
+.see-2 h2{
+    padding: 50px  200px;
+    color: rgba(240, 248, 255, 0.563);
+   
+}
+
+
+.see-2 p{
+    padding: 0 200px;
+    margin-top: -50px;
+    color: white;
+    line-height: 25px;
+}
+
+.see-2 a{
+    color: white;
+}
+
+.see-2 a:hover{
+    color: rgb(30, 15, 44);
+}
+
+.see-3 img{
+    padding: 80px;
+}
+
+.see-9{
+    background-color: black;
+    color: white;
+    height: 400px;
+    margin-top: -25px;
+}
+
+.see-8 img{
+ margin: 100px 180px;
+}
+
+.see-8 h2{
+    padding: 150px;
+    color: rgba(255, 255, 255, 0.355);
+    font-size: 30px;
+    margin-right: -100px;
+}
+
+.see-8 p{
+    margin-top: -150px;
+   font-size: 20px;
+}
+
+.see-8 a{
+    color: white;
+}
+
+.see-8 a:hover{
+    color: rgba(240, 248, 255, 0.412);
+}
+
+.see-11{
+    background-color:  rgb(71, 6, 71);
+    height: 250px;
+    margin-top: -30px;
+    text-align: center;
+}
+
+.see-10 h2{
+    padding: 50px;
+    color: rgba(255, 255, 255, 0.444);
+    font-size: 25px;
+    
+}
+
+.see-10 p{
+    margin-top: -40px;
+    width: 730px;
+   display: inline-block;
+   color: white;
+   line-height: 25px;
+}
+
+
+.see-10 a{
+    color: white;
+
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: grey;
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.main-w i{
+    margin: 20px 0;
+    font-size: 35px;
+    margin-right: 20px;
+}
+
+.main-e{
+   background-color: aliceblue;
+   height: 80px;
+}
+
+.main-e p{
+    text-align: center;
+    margin: 40px 0;
+}
+
+.main-w i:hover{
+    /* background-color: rgb(228, 144, 35); */
+   color: rgba(248, 248, 255, 0.547);
+}
